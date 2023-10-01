@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+
+    padding: 1%;
+}
+.form{
+    background-image: url("../images/chs3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 10px 20px black;
+    border-radius: 2%;
+}
+.form-control{
+    background-color: rgb(68, 68, 68);
+    color: rgb(231, 255, 254);
+    mix-blend-mode: lighten;
+    border: 10px 10px rgb(12, 11, 11);
+}
+label{
+    color: rgb(255, 255, 255);
+}
+
+.docl{
+    background-image: url("../images/doc4.jpeg");
+    background-repeat: no-repeat;
+    box-shadow: 2px 10px 20px black;
+    background-size: cover;
+}
+.patl{
+    background-image: url("../images/pat1.jpeg");
+    background-repeat: no-repeat;
+    box-shadow: 2px 10px 20px black;
+    background-size: cover;
+}
+.stfl{
+    background-image: url("../images/staff1.jpeg");
+    background-repeat: no-repeat;
+    box-shadow: 2px 10px 20px black;
+    background-size: cover;
+}
+.nav-link{
+    font-size: 150%;
+    font-weight: 400;
+}
+.navbar-brand{
+    font-size: 150%;
+    font-weight: 500;
+}
+h2{
+    color: rgb(1, 162, 255);
+}
+p{
+    color: rgb(1, 162, 255);
+}
+em:hover{
+    font-size: large;
+    text-decoration: underline;
+}
+.btn:hover{
+    text-emphasis-color: black;
+}
+.loginfrm{
+    box-shadow: 2px 2px 10px 10px rgb(144, 142, 142);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+footer p{
+    color: rgb(235, 75, 253);
+}
+footer p:hover{
+    font-size: large;
+}
+.rights{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
