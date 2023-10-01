@@ -8,7 +8,7 @@ app.use(express.static("public"));
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://ronson:<Ronson@123>@cluster0.fibfdhb.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://ronson:<Ronson@123>@cluster0.fibfdhb.mongodb.net/hospitaldb", { useNewUrlParser: true });
 
 
 
